@@ -1,16 +1,244 @@
-ul{list-style-type:none;
-}
-
 
 
 body {
-  max-width: 1000px;
-  padding: 1em;
+  max-width: 100%;
   font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding:0em;
+  padding-right:0em;}
+
+
+/*Page Title Colors*/
+.homecolor{
+  color:rgb(163, 149, 154);
+  font-weight:800;;}
+
+.aboutcolor{
+  color:rgb(163, 149, 154);
+  font-weight:800;;}
+
+.winescolor{
+  color:rgb(163, 149, 154);
+  font-weight:800;;}
+
+
+/*Header Mobile Version*/
+nav a{
+  text-decoration:none;
+  color:white;}
+
+nav a:hover{color:rgb(163, 149, 154);}
+
+nav li:hover{color:rgb(163, 149, 154);}
+
+nav a:active{color:rgb(163, 149, 154);}
+
+nav li:active{color:rgb(163, 149, 154);}
+
+nav ul{list-style-type:none;}
+
+nav li{
+  padding-left:1em;
+  padding-right:1em;}
+
+.contactlist{padding-right:2em;}
+
+.headerlogo{
+  width: 60px;
+  padding:1em;
+  padding-left:1.5em;}
+
+header{
+  max-width:100%;
+  background-color:rgb(2, 43, 60);
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  margin:0;
+  padding:0;}
+
+nav ul{
+  display:flex;
+  text-align: right;
+  justify-content: space-between;
+  text-decoration:none;
+  font-size:10px;
+  color:white;
+  font-weight:400;
+  padding:0em;}
+
+
+/*Header - @450px*/
+@media screen and (min-width:450px){
+  nav ul{font-size:13px;}}
+
+@media screen and (min-width:450px){
+  .headerlogo{
+    width: 80px;
+    padding:1em;
+    padding-left:1.5em;}}
+
+/*Header - @800px*/
+@media screen and (min-width:800px){
+  nav ul{font-size:17px;
+    display:flex;
+    text-align: right;
+    justify-content: space-between;
+    text-decoration:none;
+    color:white;
+    font-weight:200;
+    padding:0em;}}
+
+@media screen and (min-width:800px){
+  .headerlogo{
+    width: 100px;
+    padding:1em;
+    padding-left:1.5em;}}
+
+/*Header - @1100px*/
+@media screen and (min-width:1100px){
+  nav ul{font-size:20px;
+    display:flex;
+    text-align: right;
+    justify-content: space-between;
+    text-decoration:none;
+    color:white;
+    font-weight:200;
+    padding:0em;}}
+
+@media screen and (min-width:1100px){
+  .headerlogo{
+    width: 130px;
+    padding:1em;
+    padding-left:1.5em;}}
+
+
+/*Intro Section*/
+.parent{position:relative;
+top:0;
+left:0;}
+
+.vineyard1{position:relative;
+opacity:.80;
+top:0;
+left:0;
+border-bottom: 5px solid rgb(163, 149, 154);
 }
 
-div, section, main, aside, header, footer {
-  border: 1px solid lightgray;
-  padding: .5em;
-  margin-bottom: 1em;
+.logo{position:absolute;
+  padding:0;
+margin:auto;
+top:30%;
+left:30%;
+max-width:40%;}
+
+/*Main*/
+
+
+.homesection{background-color:rgb(163, 149, 154);
+padding:5em;}
+
+
+/*Hover Images*/
+.image1{
+  max-width:100%;
+  background-image: url("Images/006bhw.barscene_purple.jpg");
+  margin:auto;
+  display:block;
+  padding: 10em;
+  background-size:cover;
+  text-align:center;
+  text-decoration:none;
+  color:rgb(2, 43, 60);
+  font-size:13px;}
+
+.image2{
+  max-width:100%;
+  height:40px;
+  padding:0;
+  background-image: url("Images/wine-stoppers-pc-and-mac-1073571_lightpurple.jpg");
+  margin:0;
+  display:block;
+  padding: 10em;
+  background-size: cover;
+  text-align:center;
+  text-decoration:none;
+  color:rgb(2, 43, 60);
+  font-size:13px;}
+
+
+/*List Images*/
+.imagelist{max-width:80%;
+list-style-type: none;
+margin:auto;
+padding:2em;
+display:block;}
+
+
+/*List Images @ 600px*/
+@media screen and (min-width:700px){
+  .imagelist{display:flex;
+    max-width:95%;
+    padding:1em;
+    padding-left:0;
+    padding-right:0;
+    margin:auto;}}
+
+
+
+/*ABOUT PAGE*/
+
+
+.about p{font-size:8pt;
+padding-left:2em;
+text-align:left;
 }
+
+.about h2{font-size:12pt;
+  padding-left:2em;
+  text-align:left;}
+
+.aboutimage{max-width:100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*WINE PAGE*/
+
+
+
+
+/*Footer*/
+footer{
+  background-color:rgb(237, 237, 237);
+  padding:1em;}
+
+footer img{width:50px;
+  margin:0;
+  padding:0;}
+
+.footeritems{display:flex;
+margin-bottom:1em;;
+paddign:0;
+}
+
+.hours{list-style-type: none;
+font-size:10px;}
+
+.contact{list-style-type: none;
+font-size:10px;}
