@@ -24,30 +24,30 @@ h1{
   padding-top:1em;
   padding-left:2em;
   font-weight:600;
-  font-size:17pt;
+  font-size:22pt;
   color:rgb(89, 81, 89);}
 
 p{
-  font-size:10pt;
-  padding-left:3.5em;
+  font-size:12pt;
+  padding-left:3.7em;
   padding-right:3em;
   color:rgb(89, 90, 90);}
 
 .desc{
-  font-size:10pt;
+  font-size:11pt;
   padding-left:4.9em;
   padding-right:3em;
   color:rgb(89, 90, 90);}
 
-h2{font-size:12pt;
+h2{font-size:15pt;
 color:rgb(163, 149, 154);
-padding-left:4em;
+padding-left:3.5em;
 padding-top:2em;}
 
 
 .line{border-top:1px solid rgb(186, 177, 181);}
 
-.btn{padding-left:4em;
+.btn{padding-left:4.5em;
 padding-bottom:2em;}
 
 .button{border:1px solid rgb(163, 149, 154);
@@ -69,6 +69,105 @@ font-size:7pt;}
 
 .number{font-style:oblique;
 padding-right:.5em;}
+
+
+
+
+
+.colors{list-style-type: none;
+display:flex;
+margin-left:3em;
+margin-bottom:3em;}
+
+.nocolor{background-color:rgb(237, 237, 237);
+margin:1em;}
+
+.color1{background-color:rgb(186, 177, 181);
+width:45px;}
+
+.color2{background-color:rgb(89, 81, 89);
+width:45px;
+height:45px;}
+
+.color3{background-color:rgb(46, 40, 46);
+width:45px;
+height:45px;}
+
+
+
+
+.regular{margin-left:1.3em;}
+.bold{margin-left:1.3em;
+font-weight:600;
+margin-bottom:3em;}
+
+
+
+
+.headerimg{max-width:90%;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  padding-bottom:3em;}
+
+.space{padding-bottom:3em;}
+
+
+
+.paragraph{font-size:9pt;
+margin-left:3em;
+margin-right:4em;
+color:rgb(89, 90, 90);
+padding-bottom:3em;}
+
+
+
+
+
+
+
+
+
+.button2{
+    position: absolute;
+    margin-left:10em;
+    margin-top:2em;
+    margin-bottom:3em;
+    text-align: center;
+    font-size:8pt;}
+
+.button2 a{
+    padding: 8px 20px;
+    text-align: center;
+    color: rgb(163, 149, 154);
+    border: solid 1px rgb(163, 149, 154);
+    text-decoration:none;}
+
+.button2 a:hover{
+    border: solid 2px rgb(89, 81, 89);
+    color:rgb(89, 81, 89);}
+
+
+.space2{margin-bottom:3em;}
+
+
+
+
+
+
+
+
+
+
+
+
+.footerimg{max-width:90%;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  border:1px solid rgb(163, 149, 154);}
+
+
 
 
 footer{
