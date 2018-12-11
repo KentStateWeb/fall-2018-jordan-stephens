@@ -834,6 +834,254 @@ padding-top:.5em;}
 
 
 
+/* Contact Page MOBILE*/
+.contactus h2{font-size:13pt;
+margin-left:3.8em;
+padding-top:2em;
+color:rgb(89, 81, 89);}
+
+.contactus p{font-size:9pt;
+margin-left:4.5em;
+margin-right:5em;
+color:rgb(89, 90, 90);
+padding-bottom:1em;}
+
+.contact{display:flex;
+list-style-type: none;
+font-size:8pt;
+color:rgb(89, 90, 90);
+margin-left:1.4em;}
+
+.contactinfo{padding:1em;}
+
+.line7{border-right:1px solid rgb(186, 177, 181);
+height:35px;
+margin-top:1.2em;}
+
+.line6{border-right:1px solid rgb(186, 177, 181);
+height:35px;
+margin-top:1.2em;}
+
+.line8{border-right:1px solid rgb(186, 177, 181);
+height:57px;
+margin-top:1.2em;}
+
+.tasting{display:flex;
+list-style-type: none;
+font-size:8pt;
+color:rgb(89, 90, 90);
+margin-left:1.4em;}
+
+.tastetime{padding:1em;}
+
+.tasteday{padding:1em;
+font-style:italic;}
+
+
+
+
+/* Contact Page @500px*/
+@media screen and (min-width:500px){
+  .contactus h2{font-size:16pt;
+    margin-left:4em;}}
+
+@media screen and (min-width:500px){
+  .contactus p{font-size:10pt;
+    margin-left:5.5em;}}
+
+@media screen and (min-width:500px){
+  .contact{font-size:9pt;
+    margin-left:2.9em;}}
+
+@media screen and (min-width:500px){
+  .tasting{font-size:9pt;
+    margin-left:2.9em;}}
+
+@media screen and (min-width:500px){
+  .line7{height:38px;
+  margin-top:1.2em;}}
+
+@media screen and (min-width:500px){
+  .line6{height:38px;
+  margin-top:1.2em;}}
+
+@media screen and (min-width:500px){
+  .line8{height:66px;
+  margin-top:1.2em;}}
+
+
+
+
+/* Contact Page @700px*/
+@media screen and (min-width:700px){
+  .contactus h2{font-size:20pt;
+    margin-left:6em;}}
+
+@media screen and (min-width:700px){
+  .contactus p{font-size:11pt;
+    margin-left:10em;}}
+
+@media screen and (min-width:700px){
+  .contact{font-size:11pt;
+    margin-left:7.3em;}}
+
+@media screen and (min-width:700px){
+  .tasting{font-size:11pt;
+    margin-left:7.3em;}}
+
+@media screen and (min-width:700px){
+  .line7{height:45px;
+  margin-top:1.2em;}}
+
+@media screen and (min-width:700px){
+  .line6{height:45px;
+  margin-top:1.2em;}}
+
+@media screen and (min-width:700px){
+  .line8{height:77px;
+  margin-top:1.2em;}}
+
+
+
+
+
+
+
+/* Contact Page @1000px*/
+@media screen and (min-width:1000px){
+  .contactus h2{font-size:22pt;
+    margin-left:8em;}}
+
+@media screen and (min-width:1000px){
+  .contactus p{font-size:12pt;
+    margin-left:13.5em;}}
+
+@media screen and (min-width:1000px){
+  .contact{font-size:12pt;
+    margin-left:11em;}}
+
+@media screen and (min-width:1000px){
+  .tasting{font-size:12pt;
+    margin-left:11em;}}
+
+@media screen and (min-width:1000px){
+  .line7{height:50px;
+  margin-top:1.2em;}}
+
+@media screen and (min-width:1000px){
+  .line6{height:50px;
+  margin-top:1.2em;}}
+
+@media screen and (min-width:1000px){
+  .line8{height:86px;
+  margin-top:1.2em;}}
+
+
+
+
+
+
+
+/* Contact Form */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(186, 177, 181);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;}
+
+input[type=submit] {
+  color:rgb(89, 81, 89);
+  padding: 12px 20px;
+  border: 1px solid rgb(186, 177, 181);
+  border-radius: 4px;
+  cursor: pointer;}
+
+input[type=submit]:hover {
+  background-color: rgb(186, 177, 181);
+  color:white;
+  font-weight:600;}
+
+.container2 {
+  border-radius: 5px;
+  margin:auto;
+  margin-top:5em;
+  margin-left:3em;
+  margin-right:3em;
+  margin-bottom:7em;}
+
+label{color:rgb(89, 81, 89);
+font-size:9pt;}
+
+
+
+/* Contact Form @500px*/
+@media screen and (min-width:500px){
+  .container2{margin-left:5em;
+    margin-right:5em;}}
+
+/* Contact Form @700px*/
+@media screen and (min-width:700px){
+  .container2{margin-left:9em;
+    margin-right:9em;}}
+
+@media screen and (min-width:700px){
+  label{font-size:10pt;}}
+
+/* Contact Form @1000px*/
+@media screen and (min-width:1000px){
+  .container2{margin-left:13em;
+    margin-right:13em;
+    padding-top:3em;}}
+
+@media screen and (min-width:1000px){
+  label{font-size:12pt;}}
+
+/* Contact Form @1200px*/
+@media screen and (min-width:1200px){
+  .container2{margin-left:13em;
+    margin-right:13em;}}
+
+
+
+
+
+
+
+
+
+
+/* visit page */
+.visitus{font-size:13pt;
+text-align:center;
+color:rgb(89, 81, 89);
+padding-top:2em;}
+
+.column{padding-top:1em;}
+
+.column img {
+      display:block;
+      max-width: 80%;
+      margin-left:auto;
+      margin-right:auto;
+      padding:2em;
+      padding-top:0;}
+
+/* visit header @500px */
+@media screen and (min-width:500px){
+  .visitus{font-size:18pt;}}
+
+/* visit header @700px */
+@media screen and (min-width:700px){
+  .visitus{font-size:21pt;}}
+
+/* visit header @1000px */
+@media screen and (min-width:1000px){
+  .visitus{font-size:25pt;}}
+
 
 
 
@@ -849,7 +1097,7 @@ footer{
   border-top:.5px solid rgb(89, 81, 89);)
   display:flex;
   margin-bottom:0;
-  padding:0;}
+  padding:1em;}
 
 .footerlist{list-style-type: none;
   display:flex;
