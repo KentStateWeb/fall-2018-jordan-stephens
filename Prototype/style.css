@@ -707,7 +707,10 @@ footer{
   padding-right:.5em;
   padding-left:.5em;}
 
-.footerlist li{;
+
+
+.footerlist ul{  height:50px;}
+.footerlist li{
   text-align:center;
   padding-right:1em;
   padding-left:1em;
@@ -716,7 +719,9 @@ footer{
 
 footer img{
   position:relative;
-  width:80px;}
+  width:80px;
+  padding:0;
+  margin:0;}
 
 .social{
   list-style-type: none;
