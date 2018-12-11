@@ -736,7 +736,15 @@ footer img{
 .footercontact{font-weight:600;
 padding:.5em;}
 
-a[href^="tel"]{
+.tele a[href^="tel"]{
   color:inherit;
+  text-decoration: none;}
+
+.tele a[x-apple-data-detectors]{
+  color: inherit;
   text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: inherit;
 }
