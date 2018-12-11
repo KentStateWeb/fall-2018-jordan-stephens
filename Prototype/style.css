@@ -705,8 +705,7 @@ footer{
   padding-top:0;
   padding-bottom:0;
   padding-right:.5em;
-  padding-left:.5em;
-  height:50px;}
+  padding-left:.5em;}
 
 .footerlist li{
   text-align:center;
@@ -725,7 +724,8 @@ footer img{
   list-style-type: none;
   display:flex;
   padding:0;
-  margin:0;}
+  margin:0;
+  height:50px;}
 
 .social img{
   max-width:80px;
