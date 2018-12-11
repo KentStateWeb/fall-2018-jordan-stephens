@@ -5,21 +5,30 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   margin: 0;
   padding:0em;
-  padding-right:0em;}
+  padding-right:0em;
+  background-color:rgb(237, 237, 237);}
 
 
 /*Page Title Colors*/
 .homecolor{
-  color:rgb(163, 149, 154);
+  color:rgb(89, 81, 89);
   font-weight:800;;}
 
 .aboutcolor{
-  color:rgb(163, 149, 154);
+  color:rgb(89, 81, 89);
   font-weight:800;;}
 
 .winescolor{
-  color:rgb(163, 149, 154);
+  color:rgb(89, 81, 89);
   font-weight:800;;}
+
+.visitcolor{
+  color:rgb(89, 81, 89);
+  font-weight:800;;}
+
+  .contactcolor{
+    color:rgb(89, 81, 89);
+    font-weight:800;;}
 
 
 /*Header Mobile Version*/
@@ -27,21 +36,19 @@ nav a{
   text-decoration:none;
   color:white;}
 
-nav a:hover{color:rgb(163, 149, 154);}
+nav a:hover{color:rgb(89, 81, 89);}
 
-nav li:hover{color:rgb(163, 149, 154);}
+nav li:hover{color:rgb(89, 81, 89);}
 
-nav a:active{color:rgb(163, 149, 154);}
+nav a:active{color:rgb(89, 81, 89);}
 
-nav li:active{color:rgb(163, 149, 154);}
+nav li:active{color:rgb(89, 81, 89);}
 
 nav ul{list-style-type:none;}
 
 nav li{
   padding-left:1em;
   padding-right:1em;}
-
-.contactlist{padding-right:2em;}
 
 .headerlogo{
   width: 60px;
@@ -50,7 +57,7 @@ nav li{
 
 header{
   max-width:100%;
-  background-color:rgb(2, 43, 60);
+  background-color:rgb(186, 177, 181);
   display:flex;
   justify-content: space-between;
   align-items:center;
@@ -65,7 +72,8 @@ nav ul{
   font-size:10px;
   color:white;
   font-weight:400;
-  padding:0em;}
+  padding:0em;
+padding-right:1.5em;}
 
 
 /*Header - @450px*/
@@ -87,7 +95,8 @@ nav ul{
     text-decoration:none;
     color:white;
     font-weight:200;
-    padding:0em;}}
+    padding:0em;
+    padding-right:1.5em;}}
 
 @media screen and (min-width:800px){
   .headerlogo{
@@ -104,7 +113,8 @@ nav ul{
     text-decoration:none;
     color:white;
     font-weight:200;
-    padding:0em;}}
+    padding:0em;
+    padding-right:1.5em;}}
 
 @media screen and (min-width:1100px){
   .headerlogo{
@@ -113,76 +123,532 @@ nav ul{
     padding-left:1.5em;}}
 
 
-/*Intro Section*/
+/*Intro Image*/
 .parent{position:relative;
 top:0;
 left:0;}
 
 .vineyard1{position:relative;
-opacity:.80;
+  opacity:.9;
 top:0;
 left:0;
-border-bottom: 5px solid rgb(163, 149, 154);
-}
+border-bottom: 12px solid rgb(186, 177, 181);}
 
 .logo{position:absolute;
   padding:0;
-margin:auto;
-top:30%;
-left:30%;
-max-width:40%;}
-
-/*Main*/
-
-
-.homesection{background-color:rgb(163, 149, 154);
-padding:5em;}
-
-
-/*Hover Images*/
-.image1{
-  max-width:100%;
-  background-image: url("Images/006bhw.barscene_purple.jpg");
   margin:auto;
-  display:block;
-  padding: 10em;
-  background-size:cover;
-  text-align:center;
-  text-decoration:none;
-  color:rgb(2, 43, 60);
-  font-size:13px;}
+  top:70%;
+  left:47%;
+  max-width:10%;}
 
-.image2{
-  max-width:100%;
-  height:40px;
-  padding:0;
-  background-image: url("Images/wine-stoppers-pc-and-mac-1073571_lightpurple.jpg");
+
+/*Intro Information*/
+.introheader{font-size:13pt;
+margin-left:2.8em;
+padding-top:2em;
+color:rgb(89, 81, 89);}
+
+.introp{font-size:9pt;
+margin-left:4em;
+margin-right:4em;
+color:rgb(89, 90, 90);
+padding-bottom:1em;}
+
+
+/*Hours*/
+.listheaders{
+list-style-type: none;}
+
+.hoursheader{
+  font-size:11pt;
+  margin-left:1.2em;
+  color:rgb(89, 81, 89);}
+
+.contactheader{
+  font-size:11pt;
+  margin-left:1.2em;
+  color:rgb(89, 81, 89);}
+
+.hours{list-style-type: none;
+  display:flex;
   margin:0;
-  display:block;
-  padding: 10em;
-  background-size: cover;
-  text-align:center;
-  text-decoration:none;
-  color:rgb(2, 43, 60);
-  font-size:13px;}
+  padding-left:3em;}
+
+.days{
+  padding:1em;
+  font-size:9pt;
+  color:rgb(89, 90, 90);
+  font-style: italic;}
+
+.times{padding:1em;
+  font-size:9pt;
+  color:rgb(89, 90, 90);}
 
 
-/*List Images*/
-.imagelist{max-width:80%;
-list-style-type: none;
-margin:auto;
-padding:2em;
-display:block;}
+
+.line2{border-right:1px solid rgb(186, 177, 181);
+height:70px;
+margin-top:.9em;}
+
+.line3{border-right:1px solid rgb(186, 177, 181);
+height:40px;
+margin-top:.9em;}
+
+.line{border:2px solid rgb(89, 81, 89);}
+
+.introinfo{padding-bottom:5em;}
 
 
-/*List Images @ 600px*/
+
+
+/*Intro Information @500px*/
+@media screen and (min-width:500px){
+  .introheader{
+    font-size:15pt;
+    margin-left:3.3em;}}
+
+  @media screen and (min-width:500px){
+  .introp{
+    font-size:10pt;
+    margin-left:5em;
+    margin-right:5em;}}
+
+/*Hours @500px*/
+
+@media screen and (min-width:500px){
+  .hoursheader{
+    font-size:13pt;
+    color:rgb(89, 81, 89);
+    padding:0;
+    margin:0;
+    margin-left:2.2em;}}
+
+@media screen and (min-width:500px){
+.contactheader{
+    font-size:13pt;
+    margin:0;
+    margin-left:2.2em;
+    margin-top:1em;
+    color:rgb(89, 81, 89);}}
+
+@media screen and (min-width:500px){
+.hours{list-style-type: none;
+        display:flex;
+        margin:0;
+        padding-left:4em;}}
+
+@media screen and (min-width:500px){
+.days{
+        padding:1em;
+        font-size:9pt;
+        color:rgb(89, 90, 90);
+        font-style: italic;}}
+
+@media screen and (min-width:500px){
+.times{padding:1em;
+        font-size:9pt;
+        color:rgb(89, 90, 90);}}
+
+@media screen and (min-width:500px){
+  .line2{border-right:1px solid rgb(186, 177, 181);
+        height:69px;
+        margin-top:.9em;}}
+
+@media screen and (min-width:500px){
+  .line3{border-right:1px solid rgb(186, 177, 181);
+        height:40px;
+        margin-top:.9em;}}
+
+@media screen and (min-width:500px){
+.introinfo{padding-bottom:6em;}}
+
+
+
+
+/*Intro Information @700px*/
 @media screen and (min-width:700px){
-  .imagelist{display:flex;
-    max-width:95%;
-    padding:1em;
-    padding-left:0;
-    padding-right:0;
+  .introheader{
+    font-size:20pt;
+    margin-left:5em;}}
+
+@media screen and (min-width:700px){
+  .introp{
+    font-size:10pt;
+    margin-left:10em;
+    margin-right:10em;}}
+
+
+/*Hours @700px*/
+@media screen and (min-width:700px){
+  .hoursheader{
+    font-size:15pt;
+    color:rgb(89, 81, 89);
+    padding:0;
+    margin:0;
+    margin-left:5em;}}
+
+@media screen and (min-width:700px){
+.contactheader{
+    font-size:15pt;
+    margin:0;
+    margin-left:5em;
+    margin-top:2em;
+    color:rgb(89, 81, 89);}}
+
+@media screen and (min-width:700px){
+.hours{list-style-type: none;
+        display:flex;
+        margin:0;
+        padding-left:8em;}}
+
+@media screen and (min-width:700px){
+.days{
+        padding:1em;
+        font-size:9pt;
+        color:rgb(89, 90, 90);
+        font-style: italic;}}
+
+@media screen and (min-width:700px){
+.times{padding:1em;
+        font-size:9pt;
+        color:rgb(89, 90, 90);}}
+
+@media screen and (min-width:700px){
+  .line2{border-right:1px solid rgb(186, 177, 181);
+        height:69px;
+        margin-top:.9em;}}
+
+@media screen and (min-width:700px){
+  .line3{border-right:1px solid rgb(186, 177, 181);
+        height:40px;
+        margin-top:.9em;}}
+
+@media screen and (min-width:700px){
+.introinfo{padding-bottom:8em;}}
+
+
+
+
+/*Intro Information @1000px*/
+@media screen and (min-width:1000px){
+    .introheader{
+      font-size:25pt;
+      margin-left:6.2em;}}
+
+@media screen and (min-width:1000px){
+    .introp{
+      font-size:12pt;
+      margin-left:13em;
+      margin-right:13em;}}
+
+/*Hours @1000px*/
+@media screen and (min-width:1000px){
+  .listheaders{display:flex;
+      list-style-type: none;}}
+
+@media screen and (min-width:1000px){
+  .hoursheader{
+        font-size:17pt;
+        margin:0;
+        margin-left:8.2em;
+        color:rgb(89, 81, 89);}}
+
+@media screen and (min-width:1000px){
+.contactheader{
+        font-size:17pt;
+        margin:0;
+        margin-left:8.2em;
+        color:rgb(89, 81, 89);}}
+
+@media screen and (min-width:1000px){
+.hours{list-style-type: none;
+        display:flex;
+        margin:0;
+        padding-left:13em;}}
+
+@media screen and (min-width:1000px){
+.days{
+        padding:1em;
+        font-size:12pt;
+        color:rgb(89, 90, 90);
+        font-style: italic;}}
+
+@media screen and (min-width:1000px){
+.times{padding:1em;
+        font-size:12pt;
+        color:rgb(89, 90, 90);}}
+
+@media screen and (min-width:1000px){
+  .line2{border-right:1px solid rgb(186, 177, 181);
+        height:90px;
+        margin-top:1em;}}
+
+@media screen and (min-width:1000px){
+  .line3{border-right:1px solid rgb(186, 177, 181);
+        height:55px;
+        margin-top:1em;}}
+
+@media screen and (min-width:1000px){
+.floatlist{float:left;}}
+
+@media screen and (min-width:1000px){
+.listheaders{display:flex;
+list-style-type: none;}}
+
+
+@media screen and (min-width:1000px){
+.introinfo{padding-bottom:19em;}}
+
+
+
+/*Intro Information @1200px*/
+@media screen and (min-width:1200px){
+    .introheader{
+      font-size:27pt;
+      margin-left:6.6em;}}
+
+@media screen and (min-width:1200px){
+    .introp{
+      font-size:12pt;
+      margin-left:15em;
+      margin-right:15em;}}
+
+/*Hours @1200px*/
+@media screen and (min-width:1200px){
+  .listheaders{display:flex;
+      list-style-type: none;}}
+
+@media screen and (min-width:1200px){
+  .hoursheader{
+        font-size:17pt;
+        margin:0;
+        margin-left:9.6em;
+        color:rgb(89, 81, 89);
+        }}
+
+@media screen and (min-width:1200px){
+.contactheader{
+        font-size:17pt;
+        margin:0;
+        margin-left:9.6em;
+        color:rgb(89, 81, 89);}}
+
+@media screen and (min-width:1200px){
+.hours{list-style-type: none;
+        display:flex;
+        margin:0;
+        padding-left:15em;}}
+
+@media screen and (min-width:1200px){
+.days{
+        padding:1em;
+        font-size:12pt;
+        color:rgb(89, 90, 90);
+        font-style: italic;}}
+
+@media screen and (min-width:1200px){
+.times{padding:1em;
+        font-size:12pt;
+        color:rgb(89, 90, 90);}}
+
+@media screen and (min-width:1200px){
+  .line2{border-right:1px solid rgb(186, 177, 181);
+        height:90px;
+        margin-top:1em;}}
+
+@media screen and (min-width:1200px){
+  .line3{border-right:1px solid rgb(186, 177, 181);
+        height:55px;
+        margin-top:1em;}}
+
+@media screen and (min-width:1200px){
+.floatlist{float:left;}}
+
+@media screen and (min-width:1200px){
+.listheaders{display:flex;
+list-style-type: none;}}
+
+
+@media screen and (min-width:1200px){
+.introinfo{padding-bottom:19em;}}
+
+
+
+
+
+
+
+
+
+/*Main Image Grid*/
+.explore{
+  background-color:rgb(186, 177, 181);
+  padding-top:2em;;
+  margin:0;
+  height:900px;}
+
+.hoverlist{
+  list-style-type: none;
+  padding-top:1em;
+  padding-left:3em;
+  padding-right:3em;
+  margin:auto;}
+
+.hoverlist li{padding:1em;}
+
+.container{
+    position: relative;
+    width:250px;
+    height:250px;
+    margin:auto;
+    padding:0;}
+
+.container img{
+    position: absolute;
+    max-width:100%;
+    opacity:.6;}
+
+.button{
+    position: absolute;
+    left: 90px;
+    top: 210px;
+    text-align: center;
+    font-size:8pt;}
+
+.button a{
+    padding: 8px 20px;
+    text-align: center;
+    color: white;
+    border: solid 1px white;
+    text-decoration:none;}
+
+.button a:hover{
+    border: solid 2px rgb(89, 81, 89);
+    color:rgb(89, 81, 89);}
+
+.container:hover{background-color:white;}
+
+.container:hover img{opacity:.50;}
+
+
+
+/*Main Image Grid @500px*/
+@media screen and (min-width:500px){
+  .explore{
+  height:1200px;}}
+
+@media screen and (min-width:500px){
+  .container{
+      position: relative;
+      width:350px;
+      height:350px;
+      margin:auto;
+      padding:0;}}
+
+@media screen and (min-width:500px){
+  .button{
+      position: absolute;
+      left: 140px;
+      top: 300px;
+      text-align: center;
+      font-size:10pt;}}
+
+
+/*Main Image Grid @700px*/
+@media screen and (min-width:700px){
+  .hoverlist{
+    list-style-type: none;
+    display:flex;
+    padding-top:4em;
+    padding-left:.25em;
+    padding-right:.25em;
     margin:auto;}}
+
+@media screen and (min-width:700px){
+  .container{
+    position: relative;
+    width:200px;
+    height:200px;
+    margin:auto;
+    padding:0;}}
+
+@media screen and (min-width:700px){
+  .button{
+      position: absolute;
+      left: 60px;
+      top: 160px;
+      text-align: center;
+      font-size:9pt;}}
+
+@media screen and (min-width:700px){
+  .button a{
+    padding: 8px 25px;}}
+
+@media screen and (min-width:700px){
+  .hoverlist li{
+    padding:.25em;
+    margin:auto;}}
+
+@media screen and (min-width:700px){
+  .explore{height:400px;}}
+
+
+
+
+/*Main Image Grid @850px*/
+@media screen and (min-width:850px){
+  .container{
+    position: relative;
+    width:250px;
+    height:250px;
+    margin:auto;
+    padding:0;}}
+
+@media screen and (min-width:850px){
+  .button{
+      position: absolute;
+      left: 80px;
+      top: 210px;
+      text-align: center;
+      font-size:9pt;}}
+
+
+/*Main Image Grid @1200px*/
+@media screen and (min-width:1100px){
+  .container{
+    position: relative;
+    width:325px;
+    height:325px;
+    margin:auto;
+    padding:0;}}
+
+@media screen and (min-width:1100px){
+  .button{
+      position: absolute;
+      left: 115px;
+      top: 280px;
+      text-align: center;
+      font-size:9pt;}}
+
+@media screen and (min-width:1100px){
+  .explore{height:600px;}}
+
+
+  @media screen and (min-width:1100px){
+    .hoverlist{
+      padding-top:7em;}}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -218,27 +684,48 @@ text-align:left;
 
 
 
-/*WINE PAGE*/
 
 
 
 
 /*Footer*/
 footer{
-  background-color:rgb(237, 237, 237);
-  padding:1em;}
+  border-top:.5px solid rgb(89, 81, 89);)
+  display:flex;
+  margin-bottom:0;
+  padding-top:1em;
+  padding-bottom:1em;}
 
-footer img{width:50px;
-  margin:0;
-  padding:0;}
+.footerlist{list-style-type: none;
+  display:flex;
+  margin:auto;
+  font-size:7pt;
+  color: rgb(89, 81, 89);
+  align-items: center;
+  justify-content: space-between;
+  padding-right:.5em;
+  padding-left:.5em;}
 
-.footeritems{display:flex;
-margin-bottom:1em;;
-paddign:0;
-}
+.footerlist li{;
+  text-align:center;
+  padding-right:1em;
+  padding-left:1em;}
 
-.hours{list-style-type: none;
-font-size:10px;}
+footer img{
+  position:relative;
+  width:80px;}
 
-.contact{list-style-type: none;
-font-size:10px;}
+.social{
+  list-style-type: none;
+  display:flex;
+  padding:0;
+  margin:0;}
+
+.social img{
+  max-width:80px;
+  padding:0;
+  margin:0;}
+
+
+.footercontact{font-weight:600;
+padding:.5em;}
