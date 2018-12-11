@@ -653,18 +653,64 @@ list-style-type: none;}}
 
 
 /*ABOUT PAGE*/
+.about h2{font-size:13pt;
+margin-left:4.7em;
+padding-top:2em;
+color:rgb(89, 81, 89);}
+
+.timeline1{
+  display:flex;
+  list-style-type: none;
+  margin-right:2em;}
+
+.date{
+font-weight:600;
+text-align:right;
+font-size:9pt;
+color:rgb(163, 149, 154);
+margin-top:1em;}
+
+.info{font-size:9pt;
+color:rgb(89, 90, 90);
+margin-top:1em;
+margin-left:1em;}
+
+.quote{font-style:italic;
+    font-weight:600;
+    padding-left:1.5em;}
+
+.about{padding-bottom:3em;}
 
 
-.about p{font-size:8pt;
-padding-left:2em;
-text-align:left;
-}
 
-.about h2{font-size:12pt;
-  padding-left:2em;
-  text-align:left;}
 
-.aboutimage{max-width:100%;}
+
+
+/*Reviews*/
+.testimonial{background-color:rgb(89, 81, 89);
+padding-bottom:3em;}
+
+.reviewheader{font-size:13pt;
+text-align:center;
+padding-top:3em;
+
+color:rgb(186, 177, 181);}
+
+.reviews{font-size:8pt;
+color:rgb(237, 237, 237);
+list-style-type: none;
+padding-top:3em;}
+
+.testimonies{padding-right:3em;
+font-style:italic;
+color:rgb(158, 155, 158);}
+
+.customers{font-weight:600;
+color:rgb(186, 177, 181);
+padding-top:.5em;}
+
+.line4{border-bottom:.25px solid rgb(186, 177, 181);
+  padding-top:1em;}
 
 
 
