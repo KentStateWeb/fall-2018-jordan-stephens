@@ -693,8 +693,7 @@ footer{
   border-top:.5px solid rgb(89, 81, 89);)
   display:flex;
   margin-bottom:0;
-  padding-top:1em;
-  padding-bottom:1em;}
+  padding:0;}
 
 .footerlist{list-style-type: none;
   display:flex;
@@ -703,13 +702,17 @@ footer{
   color: rgb(89, 81, 89);
   align-items: center;
   justify-content: space-between;
+  padding-top:0;
+  padding-bottom:0;
   padding-right:.5em;
   padding-left:.5em;}
 
 .footerlist li{;
   text-align:center;
   padding-right:1em;
-  padding-left:1em;}
+  padding-left:1em;
+  padding-top:0;
+  padding-bottom:0;}
 
 footer img{
   position:relative;
